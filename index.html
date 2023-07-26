@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Brust</title>
 
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
     <!-- Lato font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,6 +29,7 @@
               colors: {
                 clifford: '#da373d',
                 'primary-color':'#F85559',
+                'secondary-color':'#12121299',
               }
             }
           }
@@ -89,7 +93,7 @@
         </nav>
 
         <!-- banner -->
-        <section class="container lg:max-w-7xl mx-auto mt-12 px-4 md:px-0">
+        <section class="container lg:max-w-7xl mx-auto mt-12 px-4 md:px-0 relative">
             <div class="carousel w-full rounded-lg">
                 <!-- banner image 1 -->
                 <div id="slide1" class="carousel-item relative w-full">
@@ -163,7 +167,36 @@
                     </div>
                 </div> 
             </div>
+
+            <!-- different types of fruits -->
+            <div class="hidden md:block">
+                <div class="flex absolute w-5/6 justify-around bg-white shadow-xl py-8 rounded-lg -bottom-20 left-1/2 -translate-x-1/2">
+                    <div class="text-center">
+                        <img src="images/fruit1.png" alt="">
+                        <p class="text-xl text-secondary-color">Grape</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/fruit2.png" alt="">
+                        <p class="text-xl text-secondary-color">Orange</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/fruit3.png" alt="">
+                        <p class="text-xl text-secondary-color">Mango</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/fruit4.png" alt="">
+                        <p class="text-xl text-secondary-color">Straberry</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/fruit5.png" alt="">
+                        <p class="text-xl text-secondary-color">Pomegranate</p>
+                    </div>
+                </div>
+            </div>
+            
         </section>
+
+
        
     </header>
     <!-- header ends -->
